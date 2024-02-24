@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.articolo {
+.item {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
@@ -15,7 +15,7 @@ body {
 
 
 
-.totale {
+.total {
   margin-top: 20px;
   font-weight: bold;
 }
@@ -37,7 +37,7 @@ body {
   margin: 20px auto;
 }
 
-.articolo {
+.item {
   margin-bottom: 15px;
   padding: 15px;
   background-color: #ffffff;
@@ -45,14 +45,14 @@ body {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.articolo-nome {
+.item-name {
   flex: 1;
   font-weight: bold;
   font-size: 18px;
 }
 
-.quantità,
-.prezzo {
+.quantity,
+.price {
   margin: 0 10px;
 }
 
@@ -101,7 +101,7 @@ body {
   color: #e60073;
 }
 
-.totale {
+.total {
   margin-top: 20px;
   font-weight: bold;
   text-align: right;

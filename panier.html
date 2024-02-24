@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cestino di Acquisto</title>
+  </head>
+  <body>
+    
+      
+<!--cestino primo articolo-->
+  <div class="padre">
+      <div class="articolo" >
+        <span class="articolo-nome"><i class="fas fa-car-alt"></i> Carrozina </span>
+        <button class="decrease">-</button>
+        <span class="quantità">0</span>
+        <button class="increase">+</button>
+        <button class="remove"><i class="fas fa-trash-alt"></i></button>
+        <button class="like"><i class="fas fa-heart"></i></button>
+        <span class="prezzo">1950 $</span>
+          <div class="totale">Totale: 
+          <span id="totale">0 $</span>
+          </div>
+      </div>
+
+      <div class="articolo" id="1">
+        <span class="articolo-nome"><i class="fas fa-bicycle"></i> Bicicletta </span>
+        <button class="decrease">-</button>
+        <span class="quantità">0</span>
+        <button class="increase">+</button>
+        <button class="remove"><i class="fas fa-trash-alt"></i></button>
+        <button class="like"><i class="fas fa-heart"></i></button>
+        <span class="prezzo">450$</span>
+          <div class="totale">Totale: 
+          <span id="totale">0 $</span>
+          </div>
+      </div>
+    </div>
+    <div class="totale">Totale: 
+      <span id="totale-prezzo">0 $</span>
+  </div>
+
+<!--Collegamento JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
